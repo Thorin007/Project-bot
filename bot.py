@@ -6,10 +6,9 @@ from telegram.ext import CommandHandler, Filters, MessageHandler, Updater
 import logging
 
 # мне было лень делать отдельный файл
-PROXY = {'proxy_url': 'socks5://t1.learn.python.ru:1080',
-         'urllib3_proxy_kwargs': {'username': 'learn', 'password': 'python'}
+PROXY = {...
          }
-API_KEY = ('1198642509:AAEsDY3o14iWcc6OWwJCsp7HLdgyTDIZB5o')
+API_KEY = (...)
 
 
 def main():
